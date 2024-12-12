@@ -1,0 +1,83 @@
+@import 'style/media-queries';
+
+@import './style-xl' (--xl);
+@import './style-lg' (--lg);
+@import './style-md' (--md);
+@import './style-sm' (--sm);
+@import './style-xs' (--xs);
+
+/* @media (--xl) {
+  .resource {
+    font-size: 1.1rem;
+    &-inner {
+      margin: 4px 4px 0 4px;
+      font-size: 2em;
+      padding-left: 5px;
+    }
+    > div:nth-child(2) {
+      font-size: 1em;
+      padding: 3px 5px;
+    }
+  }
+}
+
+@media (--lg) {
+  .resource {
+    font-size: 1.0rem;
+    &-inner {
+      margin: 3px 3px 0 3px;
+      font-size: 2em;
+      padding-left: 4px;
+    }
+    > div:nth-child(2) {
+      font-size: .9em;
+      padding: 3px 4px;
+    }
+  }
+}
+
+@media (--md) {
+  .resource {
+    font-size: .9rem;
+    &-inner {
+      margin: 3px 3px 0 3px;
+      font-size: 2em;
+      padding-left: 4px;
+    }
+    > div:nth-child(2) {
+      font-size: .9em;
+      padding: 2px 4px;
+    }
+  }
+}
+
+@media (--sm) {
+  .resource {
+    font-size: .7rem;
+    &-inner {
+      margin: 2px 2px 0 2px;
+      font-size: 1.6em;
+      padding-left: 2px;
+    }
+    > div:nth-child(2) {
+      font-size: .8em;
+      padding: 1px 3px;
+    }
+  }
+}
+
+@media (--xs) {
+  .resource {
+    font-size: .5rem;
+    &-inner {
+      border-width: 0;
+      margin: 2px 2px 0 2px;
+      font-size: 1.4em;
+      padding-left: 2px;
+    }
+    > div:nth-child(2) {
+      font-size: .8em;
+      padding: 2px 3px;
+    }
+  }
+} */

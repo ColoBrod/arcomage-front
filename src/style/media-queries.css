@@ -1,0 +1,10 @@
+@custom-media --xl (min-width: 1600px);
+@custom-media --lg (min-width: 1280px) and (max-width: 1599px);
+@custom-media --md (min-width: 960px) and (max-width: 1279px);
+@custom-media --sm (min-width: 640px) and (max-width: 959px);
+@custom-media --xs (max-width: 639px);
+
+@custom-media --landscape (min-aspect-ratio: 4/3);
+@custom-media --square (min-aspect-ratio: 3/4) and (max-aspect-ratio: 4/3);
+@custom-media --portrait (max-aspect-ratio: 3/4);
+

@@ -1,0 +1,169 @@
+@import 'style/media-queries';
+
+/**********************************************
+ *                 EXTRA LARGE
+ **********************************************/
+@media (--xl) {
+  div#battlefield {
+    section#cards {
+      padding: 24px 0;
+    }
+  }
+}
+
+@media (--xl) and (--landscape) {
+  div#battlefield {
+    /* section#main { height: 70% }
+    section#cards { height: 30% } */
+  }
+}
+
+@media (--xl) and (--square) {
+  div#battlefield {
+    /* section#main { height: 85% }
+    section#cards { height: 15% } */
+  }
+}
+
+@media (--xl) and (--portrait) {
+  div#battlefield {
+    /* section#main { height: 85% }
+    section#cards { height: 15% } */
+  }
+}
+
+/**********************************************
+ *                   LARGE
+ **********************************************/
+@media (--lg) {
+  div#battlefield {
+    section#cards {
+      padding: 20px 0;
+    }
+  }
+}
+
+@media (--lg) and (--landscape) {
+  div#battlefield {
+    /* section#main { height: 68% }
+    section#cards { height: 32% } */
+  }
+}
+
+@media (--lg) and (--square) {
+  div#battlefield {
+    /* section#main { height: 75% }
+    section#cards { height: 25% } */
+  }
+}
+
+@media (--lg) and (--portrait) {
+  div#battlefield {
+    /* section#main { height: 85% }
+    section#cards { height: 15% } */
+  }
+}
+
+/**********************************************
+ *                   MEDIUM
+ **********************************************/
+@media (--md) {
+  div#battlefield {
+    section#cards {
+      padding: 16px 0;
+    }
+  }
+}
+
+@media (--md) and (--landscape) {
+  div#battlefield {
+    /* section#main { height: 65% }
+    section#cards { height: 35% } */
+  }
+}
+
+@media (--md) and (--square) {
+  div#battlefield {
+    /* section#main { height: 75% }
+    section#cards { height: 25% } */
+  }
+}
+
+@media (--md) and (--portrait) {
+  div#battlefield {
+    /* section#main { height: 85% }
+    section#cards { height: 15% } */
+  }
+}
+
+/**********************************************
+ *                   SMALL
+ **********************************************/
+@media (--sm) {
+  div#battlefield {
+    section#cards {
+      padding: 12px 0;
+    }
+  }
+}
+
+@media (--sm) and (--landscape) {
+  div#battlefield {
+    /* section#main { height: 65% }
+    section#cards { height: 35% } */
+  }
+}
+
+@media (--sm) and (--square) {
+  div#battlefield {
+    /* section#main { height: 75% }
+    section#cards { height: 25% } */
+  }
+}
+
+@media (--sm) and (--portrait) {
+  div#battlefield {
+    /* section#main { height: 85% }
+    section#cards { height: 15% } */
+  }
+}
+
+/**********************************************
+ *               EXTRA SMALL
+ **********************************************/
+@media (--xs) {
+  div#battlefield {
+    section#cards {
+      padding: 8px 0;
+    }
+  }
+}
+
+@media (--xs) and (--landscape) {
+  div#battlefield {
+    /* section#main { height: 65% }
+    section#cards { height: 35% } */
+  }
+}
+
+@media (--xs) and (--square) {
+  div#battlefield {
+    /* section#main { height: 75% }
+    section#cards { height: 25% } */
+  }
+}
+
+@media (--xs) and (--portrait) {
+  div#battlefield {
+    section#cards { 
+      .cards-container {
+        flex-wrap: wrap;
+        gap: 8px 8px;
+        .card-wrapper {
+          /* width: auto; */
+          /* flex-basis: 33%; */
+        }
+      }
+    }
+  }
+}

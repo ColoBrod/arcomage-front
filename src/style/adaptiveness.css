@@ -1,0 +1,30 @@
+@import 'style/media-queries';
+/* @import 'component/Resource/resource-xl' (--xl) and (--landscape); */
+
+/* EXTRA LARGE */
+@media (--xl) {
+}
+
+/* LARGE */
+@media (--lg) {
+  
+}
+
+/* MEDIUM */
+@media (--md) {
+
+}
+
+/* SMALL */
+@media (--sm) {
+
+}
+
+/* EXTRA SMALL */
+@media (--xs) {
+
+}
+
+@media (--landscape) {
+}
+

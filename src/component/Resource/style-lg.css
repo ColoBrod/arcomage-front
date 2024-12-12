@@ -1,0 +1,12 @@
+.resource {
+  font-size: 1.0rem;
+  &-inner {
+    margin: 3px 3px 0 3px;
+    font-size: 2em;
+    padding-left: 4px;
+  }
+  > div:nth-child(2) {
+    font-size: .9em;
+    padding: 3px 4px;
+  }
+}

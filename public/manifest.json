@@ -1,0 +1,9 @@
+{
+  "name": "Towers",
+  "short_name": "Towers",
+  "start_url": "/game",
+  "theme_color": "#000000",
+  "background_color": "#FFFFFF",
+  "display": "fullscreen",
+  "orientation": "landscape"
+}

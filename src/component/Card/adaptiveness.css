@@ -1,0 +1,21 @@
+@import 'style/media-queries';
+
+@import './style-xl' (--xl) and (--landscape);
+@import './style-xl' (--xl) and (--square);
+@import './style-xl' (--xl) and (--portrait);
+
+@import './style-lg' (--lg) and (--landscape);
+@import './style-lg' (--lg) and (--square);
+@import './style-lg' (--lg) and (--portrait);
+
+@import './style-md' (--md) and (--landscape);
+@import './style-md' (--md) and (--square);
+@import './style-md' (--md) and (--portrait);
+
+@import './style-sm' (--sm) and (--landscape); 
+@import './style-sm' (--sm) and (--square); 
+@import './style-sm' (--sm) and (--portrait); 
+
+@import './style-xs' (--xs) and (--landscape);
+@import './style-xs' (--xs) and (--square);
+@import './style-md' (--xs) and (--portrait);

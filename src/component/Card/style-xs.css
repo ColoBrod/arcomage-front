@@ -1,0 +1,18 @@
+@import './spritesheet-xs';
+
+.card {
+  width: 72px;
+  &-front, &-back { border-radius: 2px; }
+  &-front { padding: 2px; }
+  &-img-wrapper { margin-top: 2px; }
+  &-title { font-size: .6em; }
+  &-desc { font-size: 0.5em; }
+  &-cost {
+    bottom: 2px;
+    right: 2px;
+    width: 10px;
+    height: 10px;
+    font-size: .4em;
+    line-height: 10px;
+  }
+}

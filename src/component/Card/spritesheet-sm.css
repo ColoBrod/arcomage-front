@@ -1,0 +1,515 @@
+.card-img {
+  display: block;
+  width:74px;height:44px;
+  background-image: url('spritesheet-sm.jpg');
+}
+
+.card-img-amethyst
+{
+background-position: -0px 0px;
+}
+
+.card-img-apprentice
+{
+background-position: -0px -44px;
+}
+
+.card-img-bag_of_baubles
+{
+background-position: -0px -88px;
+}
+
+.card-img-barracks
+{
+background-position: -0px -132px;
+}
+
+.card-img-basic_wall
+{
+background-position: -0px -176px;
+}
+
+.card-img-battlements
+{
+background-position: -0px -220px;
+}
+
+.card-img-berserker
+{
+background-position: -0px -264px;
+}
+
+.card-img-big_wall
+{
+background-position: -0px -308px;
+}
+
+.card-img-brick_shortage
+{
+background-position: -0px -352px;
+}
+
+.card-img-collapse
+{
+background-position: -0px -396px;
+}
+
+.card-img-copping_the_tech
+{
+background-position: -0px -440px;
+}
+
+.card-img-corrosion_cloud
+{
+background-position: -0px -484px;
+}
+
+.card-img-crumblestone
+{
+background-position: -0px -528px;
+}
+
+.card-img-crystallize
+{
+background-position: -0px -572px;
+}
+
+.card-img-crystal_matrix
+{
+background-position: -0px -616px;
+}
+
+.card-img-crystal_rocks
+{
+background-position: -0px -660px;
+}
+
+.card-img-crystal_shield
+{
+background-position: -0px -704px;
+}
+
+.card-img-diamond
+{
+background-position: -0px -748px;
+}
+
+.card-img-discord
+{
+background-position: -0px -792px;
+}
+
+.card-img-dragon
+{
+background-position: -0px -836px;
+}
+
+.card-img-dragons_eye
+{
+background-position: -0px -880px;
+}
+
+.card-img-dragons_heart
+{
+background-position: -0px -924px;
+}
+
+.card-img-dwarven_miners
+{
+background-position: -0px -968px;
+}
+
+.card-img-dwarves
+{
+background-position: -0px -1012px;
+}
+
+.card-img-earthquake
+{
+background-position: -0px -1056px;
+}
+
+.card-img-elven_archers
+{
+background-position: -0px -1100px;
+}
+
+.card-img-elven_scout
+{
+background-position: -0px -1144px;
+}
+
+.card-img-emerald
+{
+background-position: -0px -1188px;
+}
+
+.card-img-empathy_gem
+{
+background-position: -0px -1232px;
+}
+
+.card-img-faerie
+{
+background-position: -0px -1276px;
+}
+
+.card-img-fire_ruby
+{
+background-position: -0px -1320px;
+}
+
+.card-img-flood_water
+{
+background-position: -0px -1364px;
+}
+
+.card-img-focused_designs
+{
+background-position: -0px -1408px;
+}
+
+.card-img-forced_labor
+{
+background-position: -0px -1452px;
+}
+
+.card-img-foundations
+{
+background-position: -0px -1496px;
+}
+
+.card-img-friendly_terrain
+{
+background-position: -0px -1540px;
+}
+
+.card-img-full_moon
+{
+background-position: -0px -1584px;
+}
+
+.card-img-gem_spear
+{
+background-position: -0px -1628px;
+}
+
+.card-img-gemstone_flaw
+{
+background-position: -0px -1672px;
+}
+
+.card-img-gnome
+{
+background-position: -0px -1716px;
+}
+
+.card-img-goblin_archers
+{
+background-position: -0px -1760px;
+}
+
+.card-img-goblin_mob
+{
+background-position: -0px -1804px;
+}
+
+.card-img-great_wall
+{
+background-position: -0px -1848px;
+}
+
+.card-img-harmonic_ore
+{
+background-position: -0px -1892px;
+}
+
+.card-img-harmonic_vibe
+{
+background-position: -0px -1936px;
+}
+
+.card-img-imp
+{
+background-position: -0px -1980px;
+}
+
+.card-img-innovations
+{
+background-position: -0px -2024px;
+}
+
+.card-img-lava_jewel
+{
+background-position: -0px -2068px;
+}
+
+.card-img-lightning_shard
+{
+background-position: -0px -2112px;
+}
+
+.card-img-little_snakes
+{
+background-position: -0px -2156px;
+}
+
+.card-img-lodestone
+{
+background-position: -0px -2200px;
+}
+
+.card-img-lucky_cache
+{
+background-position: -0px -2244px;
+}
+
+.card-img-mad_cow_disease
+{
+background-position: -0px -2288px;
+}
+
+.card-img-miners
+{
+background-position: -0px -2332px;
+}
+
+.card-img-minotaur
+{
+background-position: -0px -2376px;
+}
+
+.card-img-mondo_wall
+{
+background-position: -0px -2420px;
+}
+
+.card-img-moody_goblins
+{
+background-position: -0px -2464px;
+}
+
+.card-img-mother_lode
+{
+background-position: -0px -2508px;
+}
+
+.card-img-new_equipment
+{
+background-position: -0px -2552px;
+}
+
+.card-img-ogre
+{
+background-position: -0px -2596px;
+}
+
+.card-img-orc
+{
+background-position: -0px -2640px;
+}
+
+.card-img-parity
+{
+background-position: -0px -2684px;
+}
+
+.card-img-pearl_of_wisdom
+{
+background-position: -0px -2728px;
+}
+
+.card-img-pegasus_lancer
+{
+background-position: -0px -2772px;
+}
+
+.card-img-phase_jewel
+{
+background-position: -0px -2816px;
+}
+
+.card-img-porticulus
+{
+background-position: -0px -2860px;
+}
+
+.card-img-power_burn
+{
+background-position: -0px -2904px;
+}
+
+.card-img-prism
+{
+background-position: -0px -2948px;
+}
+
+.card-img-quarrys_help
+{
+background-position: -0px -2992px;
+}
+
+.card-img-quartz
+{
+background-position: -0px -3036px;
+}
+
+.card-img-rabid_sheep
+{
+background-position: -0px -3080px;
+}
+
+.card-img-rainbow
+{
+background-position: -0px -3124px;
+}
+
+.card-img-reinforced_wall
+{
+background-position: -0px -3168px;
+}
+
+.card-img-rock_garden
+{
+background-position: -0px -3212px;
+}
+
+.card-img-rock_launcher
+{
+background-position: -0px -3256px;
+}
+
+.card-img-rock_stompers
+{
+background-position: -0px -3300px;
+}
+
+.card-img-ruby
+{
+background-position: -0px -3344px;
+}
+
+.card-img-sanctuary
+{
+background-position: -0px -3388px;
+}
+
+.card-img-sapphire
+{
+background-position: -0px -3432px;
+}
+
+.card-img-secret_room
+{
+background-position: -0px -3476px;
+}
+
+.card-img-shadow_faerie
+{
+background-position: -0px -3520px;
+}
+
+.card-img-shatterer
+{
+background-position: -0px -3564px;
+}
+
+.card-img-shift
+{
+background-position: -0px -3608px;
+}
+
+.card-img-slasher
+{
+background-position: -0px -3652px;
+}
+
+.card-img-smoky_quartz
+{
+background-position: -0px -3696px;
+}
+
+.card-img-solar_flare
+{
+background-position: -0px -3740px;
+}
+
+.card-img-spearman
+{
+background-position: -0px -3784px;
+}
+
+.card-img-spell_weavers
+{
+background-position: -0px -3828px;
+}
+
+.card-img-spizzer
+{
+background-position: -0px -3872px;
+}
+
+.card-img-stone_giant
+{
+background-position: -0px -3916px;
+}
+
+.card-img-strip_mine
+{
+background-position: -0px -3960px;
+}
+
+.card-img-sturdy_wall
+{
+background-position: -0px -4004px;
+}
+
+.card-img-succubus
+{
+background-position: -0px -4048px;
+}
+
+.card-img-thief
+{
+background-position: -0px -4092px;
+}
+
+.card-img-tower_gremlin
+{
+background-position: -0px -4136px;
+}
+
+.card-img-tremors
+{
+background-position: -0px -4180px;
+}
+
+.card-img-troll_trainer
+{
+background-position: -0px -4224px;
+}
+
+.card-img-unicorn
+{
+background-position: -0px -4268px;
+}
+
+.card-img-vampier
+{
+background-position: -0px -4312px;
+}
+
+.card-img-warlord
+{
+background-position: -0px -4356px;
+}
+
+.card-img-werewolf
+{
+background-position: -0px -4400px;
+}
+
+.card-img-work_overtime
+{
+background-position: -0px -4444px;
+}

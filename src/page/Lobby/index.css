@@ -1,0 +1,6 @@
+#lobby {
+  height: 100vh;
+  width: 100vw;
+  background-image: url('~/src/assets/img/bg.png');
+  background-size: cover;
+}

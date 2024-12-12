@@ -1,0 +1,113 @@
+@import 'style/media-queries';
+
+@media (--xl) {
+  .badge {
+    font-size: 1em;
+    padding: 4px;
+    &-inner {
+      border-width: 1px;
+      line-height: 26px;
+    }
+    &.highlight {}
+    
+  }
+  .tower, .wall {
+    bottom: 36px;
+  }
+  .badge-tower, .badge-wall {
+    height: 36px;
+    bottom: -36px;
+  }
+}
+
+@media (--lg) {
+  .badge {
+    padding: 4px;
+    font-size: .9em;
+    &-inner {
+      border-width: 1px;
+      line-height: 20px;
+    }
+    &.highlight {}
+    &-tower, &-wall {
+      height: 30px;
+      bottom: -30px;
+    }
+  }
+  .tower, .wall {
+    bottom: 30px;
+  }
+  .badge-tower, .badge-wall {
+    height: 30px;
+    bottom: -30px;
+  }
+}
+
+@media (--md) {
+  .badge {
+    padding: 3px;
+    font-size: .8em;
+    &-inner {
+      border-width: 1px;
+      line-height: 21px;
+    }
+    &.highlight {}
+    &-tower, &-wall {
+      height: 28px;
+      bottom: -28px;
+    }
+  }
+  .tower, .wall {
+    bottom: 28px;
+  }
+  .badge-tower, .badge-wall {
+    height: 28px;
+    bottom: -28px;
+  }
+}
+
+@media (--sm) {
+  .badge {
+    padding: 2px;
+    font-size: .7em;
+    &-inner {
+      border-width: 1px;
+      line-height: 16px;
+    }
+    &.highlight {}
+    &-tower, &-wall {
+      height: 22px;
+      bottom: -22px;
+    }
+  }
+  .tower, .wall {
+    bottom: 22px;
+  }
+  .badge-tower, .badge-wall {
+    height: 22px;
+    bottom: -22px;
+  }
+}
+
+@media (--xs) {
+  .badge {
+    padding: 2px;
+    font-size: .6em;
+    &-inner {
+      border-width: 1px;
+      line-height: 16px;
+    }
+    &.highlight {}
+    &-tower, &-wall {
+      height: 22px;
+      bottom: -22px;
+    }
+  }
+  .tower, .wall {
+    bottom: 22px;
+  }
+  .badge-tower, .badge-wall {
+    height: 22px;
+    bottom: -22px;
+  }
+}

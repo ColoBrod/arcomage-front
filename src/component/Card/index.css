@@ -1,0 +1,152 @@
+.card-wrapper {
+  position: relative;
+  /* flex-shrink: 1; */
+  /* max-width: fit-content; */
+  /* display: flex; 
+  justify-content: center; */
+}
+
+#cards .card {
+  margin: auto;
+  /* position: absolute; */
+  /* top: 0; left: 0; */
+  cursor: pointer;
+  /* transform: translateX(-25%) translateY(-50%); */
+  box-shadow: 0px 0px 10px rgba(0,0,0, 0.7);
+}
+
+#cards .card:hover {
+  /* z-index: 10;
+  transform: translateX(-25%) translateY(-75%);
+  transition: all .5s ease-in-out; */
+}
+
+.card {
+  position: relative;
+  aspect-ratio: 215 / 288;
+  perspective: 500px;
+  touch-action: none;
+  transition: transform .4s ease;
+
+  &.drag {
+    transform: scale(1.3);
+    z-index: 100;
+  }
+
+  &.invisible {
+    display: none;
+  }
+
+  &.animation-clone {
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    animation: card .5s ease-in-out;
+  }
+
+  /* &:hover &-front { transform: rotateY(180deg) }
+  &:hover &-back { transform: rotateY(360deg) } */
+
+  &.flipped &-front { transform: rotateY(180deg) }
+  &.flipped &-back { transform: rotateY(360deg) }
+
+  &.discarded {
+    opacity: 0.5;
+  }
+
+  &.unplayable {
+    filter: brightness(0.4);
+  }
+
+  &.discarded::after {
+    /* z-index: 10;
+    background: yellow;
+    content: 'DISCARD';
+    color: white;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0; */
+  }
+
+  &-front, &-back {
+    position: absolute;
+    width: 100%; height: 100%;
+    top: 0; left: 0;
+    backface-visibility: hidden;
+    overflow: hidden;
+    transition: .5s;
+    border-radius: 3px;
+  }
+
+  &-front {
+    font-size: 1rem;
+    color: black;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+  }
+
+  &-back {
+    background-size: 100%;
+    background-position: top;
+    transform: rotateY(180deg);
+  }
+
+  &-0 &-front { background: #D85E5D; }
+  &-1 &-front { background: #80A6D7; }
+  &-2 &-front { background: #82A584; }
+
+  &-title {
+    aspect-ratio: 88 / 12;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.2)
+  }
+
+  &-img-wrapper {
+    aspect-ratio: 88 / 52;
+  }
+
+  &-img {
+    width: 100%;
+    height: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+
+  &-desc {
+    flex-grow: 1;
+    vertical-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-inner {
+      text-align: center;
+    }
+    /* justify-content: center; */
+  }
+
+  &-cost {
+    position: absolute;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0, 0.5);
+    border-radius: 50%;
+  }
+  
+}
+
+@keyframes card {
+  0% { }
+
+  100% {
+    left: 271.948px; 
+    top: 124.396px;
+    right: 265.719px;
+    transform: translateX(50%);
+  }
+}

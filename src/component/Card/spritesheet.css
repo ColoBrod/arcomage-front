@@ -1,0 +1,515 @@
+.card-img {
+  width:88px; height:52px;
+  display: inline-block;
+}
+
+.card-img-amethyst
+{
+background:url('spritesheet.png') -0px 0px;
+}
+
+.card-img-apprentice
+{
+background:url('spritesheet.png') -0px -52px;
+}
+
+.card-img-bag_of_baubles
+{
+background:url('spritesheet.png') -0px -104px;
+}
+
+.card-img-barracks
+{
+background:url('spritesheet.png') -0px -156px;
+}
+
+.card-img-basic_wall
+{
+background:url('spritesheet.png') -0px -208px;
+}
+
+.card-img-battlements
+{
+background:url('spritesheet.png') -0px -260px;
+}
+
+.card-img-berserker
+{
+background:url('spritesheet.png') -0px -312px;
+}
+
+.card-img-big_wall
+{
+background:url('spritesheet.png') -0px -364px;
+}
+
+.card-img-brick_shortage
+{
+background:url('spritesheet.png') -0px -416px;
+}
+
+.card-img-collapse
+{
+background:url('spritesheet.png') -0px -468px;
+}
+
+.card-img-copping_the_tech
+{
+background:url('spritesheet.png') -0px -520px;
+}
+
+.card-img-corrosion_cloud
+{
+background:url('spritesheet.png') -0px -572px;
+}
+
+.card-img-crumblestone
+{
+background:url('spritesheet.png') -0px -624px;
+}
+
+.card-img-crystallize
+{
+background:url('spritesheet.png') -0px -676px;
+}
+
+.card-img-crystal_matrix
+{
+background:url('spritesheet.png') -0px -728px;
+}
+
+.card-img-crystal_rocks
+{
+background:url('spritesheet.png') -0px -780px;
+}
+
+.card-img-crystal_shield
+{
+background:url('spritesheet.png') -0px -832px;
+}
+
+.card-img-diamond
+{
+background:url('spritesheet.png') -0px -884px;
+}
+
+.card-img-discord
+{
+background:url('spritesheet.png') -0px -936px;
+}
+
+.card-img-dragon
+{
+background:url('spritesheet.png') -0px -988px;
+}
+
+.card-img-dragons_eye
+{
+background:url('spritesheet.png') -0px -1040px;
+}
+
+.card-img-dragons_heart
+{
+background:url('spritesheet.png') -0px -1092px;
+}
+
+.card-img-dwarven_miners
+{
+background:url('spritesheet.png') -0px -1144px;
+}
+
+.card-img-dwarves
+{
+background:url('spritesheet.png') -0px -1196px;
+}
+
+.card-img-earthquake
+{
+background:url('spritesheet.png') -0px -1248px;
+}
+
+.card-img-elven_archers
+{
+background:url('spritesheet.png') -0px -1300px;
+}
+
+.card-img-elven_scout
+{
+background:url('spritesheet.png') -0px -1352px;
+}
+
+.card-img-emerald
+{
+background:url('spritesheet.png') -0px -1404px;
+}
+
+.card-img-empathy_gem
+{
+background:url('spritesheet.png') -0px -1456px;
+}
+
+.card-img-faerie
+{
+background:url('spritesheet.png') -0px -1508px;
+}
+
+.card-img-fire_ruby
+{
+background:url('spritesheet.png') -0px -1560px;
+}
+
+.card-img-flood_water
+{
+background:url('spritesheet.png') -0px -1612px;
+}
+
+.card-img-focused_designs
+{
+background:url('spritesheet.png') -0px -1664px;
+}
+
+.card-img-forced_labor
+{
+background:url('spritesheet.png') -0px -1716px;
+}
+
+.card-img-foundations
+{
+background:url('spritesheet.png') -0px -1768px;
+}
+
+.card-img-friendly_terrain
+{
+background:url('spritesheet.png') -0px -1820px;
+}
+
+.card-img-full_moon
+{
+background:url('spritesheet.png') -0px -1872px;
+}
+
+.card-img-gem_spear
+{
+background:url('spritesheet.png') -0px -1924px;
+}
+
+.card-img-gemstone_flaw
+{
+background:url('spritesheet.png') -0px -1976px;
+}
+
+.card-img-gnome
+{
+background:url('spritesheet.png') -0px -2028px;
+}
+
+.card-img-goblin_archers
+{
+background:url('spritesheet.png') -0px -2080px;
+}
+
+.card-img-goblin_mob
+{
+background:url('spritesheet.png') -0px -2132px;
+}
+
+.card-img-great_wall
+{
+background:url('spritesheet.png') -0px -2184px;
+}
+
+.card-img-harmonic_ore
+{
+background:url('spritesheet.png') -0px -2236px;
+}
+
+.card-img-harmonic_vibe
+{
+background:url('spritesheet.png') -0px -2288px;
+}
+
+.card-img-imp
+{
+background:url('spritesheet.png') -0px -2340px;
+}
+
+.card-img-innovations
+{
+background:url('spritesheet.png') -0px -2392px;
+}
+
+.card-img-lava_jewel
+{
+background:url('spritesheet.png') -0px -2444px;
+}
+
+.card-img-lightning_shard
+{
+background:url('spritesheet.png') -0px -2496px;
+}
+
+.card-img-little_snakes
+{
+background:url('spritesheet.png') -0px -2548px;
+}
+
+.card-img-lodestone
+{
+background:url('spritesheet.png') -0px -2600px;
+}
+
+.card-img-lucky_cache
+{
+background:url('spritesheet.png') -0px -2652px;
+}
+
+.card-img-mad_cow_disease
+{
+background:url('spritesheet.png') -0px -2704px;
+}
+
+.card-img-miners
+{
+background:url('spritesheet.png') -0px -2756px;
+}
+
+.card-img-minotaur
+{
+background:url('spritesheet.png') -0px -2808px;
+}
+
+.card-img-mondo_wall
+{
+background:url('spritesheet.png') -0px -2860px;
+}
+
+.card-img-moody_goblins
+{
+background:url('spritesheet.png') -0px -2912px;
+}
+
+.card-img-mother_lode
+{
+background:url('spritesheet.png') -0px -2964px;
+}
+
+.card-img-new_equipment
+{
+background:url('spritesheet.png') -0px -3016px;
+}
+
+.card-img-ogre
+{
+background:url('spritesheet.png') -0px -3068px;
+}
+
+.card-img-orc
+{
+background:url('spritesheet.png') -0px -3120px;
+}
+
+.card-img-parity
+{
+background:url('spritesheet.png') -0px -3172px;
+}
+
+.card-img-pearl_of_wisdom
+{
+background:url('spritesheet.png') -0px -3224px;
+}
+
+.card-img-pegasus_lancer
+{
+background:url('spritesheet.png') -0px -3276px;
+}
+
+.card-img-phase_jewel
+{
+background:url('spritesheet.png') -0px -3328px;
+}
+
+.card-img-porticulus
+{
+background:url('spritesheet.png') -0px -3380px;
+}
+
+.card-img-power_burn
+{
+background:url('spritesheet.png') -0px -3432px;
+}
+
+.card-img-prism
+{
+background:url('spritesheet.png') -0px -3484px;
+}
+
+.card-img-quarrys_help
+{
+background:url('spritesheet.png') -0px -3536px;
+}
+
+.card-img-quartz
+{
+background:url('spritesheet.png') -0px -3588px;
+}
+
+.card-img-rabid_sheep
+{
+background:url('spritesheet.png') -0px -3640px;
+}
+
+.card-img-rainbow
+{
+background:url('spritesheet.png') -0px -3692px;
+}
+
+.card-img-reinforced_wall
+{
+background:url('spritesheet.png') -0px -3744px;
+}
+
+.card-img-rock_garden
+{
+background:url('spritesheet.png') -0px -3796px;
+}
+
+.card-img-rock_launcher
+{
+background:url('spritesheet.png') -0px -3848px;
+}
+
+.card-img-rock_stompers
+{
+background:url('spritesheet.png') -0px -3900px;
+}
+
+.card-img-ruby
+{
+background:url('spritesheet.png') -0px -3952px;
+}
+
+.card-img-sanctuary
+{
+background:url('spritesheet.png') -0px -4004px;
+}
+
+.card-img-sapphire
+{
+background:url('spritesheet.png') -0px -4056px;
+}
+
+.card-img-secret_room
+{
+background:url('spritesheet.png') -0px -4108px;
+}
+
+.card-img-shadow_faerie
+{
+background:url('spritesheet.png') -0px -4160px;
+}
+
+.card-img-shatterer
+{
+background:url('spritesheet.png') -0px -4212px;
+}
+
+.card-img-shift
+{
+background:url('spritesheet.png') -0px -4264px;
+}
+
+.card-img-slasher
+{
+background:url('spritesheet.png') -0px -4316px;
+}
+
+.card-img-smoky_quartz
+{
+background:url('spritesheet.png') -0px -4368px;
+}
+
+.card-img-solar_flare
+{
+background:url('spritesheet.png') -0px -4420px;
+}
+
+.card-img-spearman
+{
+background:url('spritesheet.png') -0px -4472px;
+}
+
+.card-img-spell_weavers
+{
+background:url('spritesheet.png') -0px -4524px;
+}
+
+.card-img-spizzer
+{
+background:url('spritesheet.png') -0px -4576px;
+}
+
+.card-img-stone_giant
+{
+background:url('spritesheet.png') -0px -4628px;
+}
+
+.card-img-strip_mine
+{
+background:url('spritesheet.png') -0px -4680px;
+}
+
+.card-img-sturdy_wall
+{
+background:url('spritesheet.png') -0px -4732px;
+}
+
+.card-img-succubus
+{
+background:url('spritesheet.png') -0px -4784px;
+}
+
+.card-img-thief
+{
+background:url('spritesheet.png') -0px -4836px;
+}
+
+.card-img-tower_gremlin
+{
+background:url('spritesheet.png') -0px -4888px;
+}
+
+.card-img-tremors
+{
+background:url('spritesheet.png') -0px -4940px;
+}
+
+.card-img-troll_trainer
+{
+background:url('spritesheet.png') -0px -4992px;
+}
+
+.card-img-unicorn
+{
+background:url('spritesheet.png') -0px -5044px;
+}
+
+.card-img-vampier
+{
+background:url('spritesheet.png') -0px -5096px;
+}
+
+.card-img-warlord
+{
+background:url('spritesheet.png') -0px -5148px;
+}
+
+.card-img-werewolf
+{
+background:url('spritesheet.png') -0px -5200px;
+}
+
+.card-img-work_overtime
+{
+background:url('spritesheet.png') -0px -5252px;
+}
+

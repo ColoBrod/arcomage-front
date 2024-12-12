@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400&family=Oswald:wght@500&display=swap');
+
+html {
+  font-family: 'Jost', sans-serif;
+  color: #eaeaea;
+  font-size: 16px;
+}
+
+body {
+  overscroll-behavior: none;
+}
+
+body::before, body::after {
+  position: absolute;
+  padding: 3px 8px;
+  z-index: 100;
+}
+
+body::before { right: 10px; bottom: 10px; }
+body::after { left: 10px; bottom: 10px; }
+
+div#battlefield {
+  width: 100vw;
+  width: 100dvw;
+  height: 100vh;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+
+  section#main {
+    flex-grow: 1;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    
+    &::after {
+      position: absolute;
+      content: "";
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 0;
+      background: linear-gradient(0deg, rgba(252, 186, 3, 0.5), transparent);
+      z-index: 3;
+      transition: ease 0.3s;
+    }
+    &.highlight::after {
+      height: 10px;
+    }
+
+    .card {
+      position: absolute;
+      top: 40%;
+      left: auto;
+      right: 42%;
+      transform: translateX(50%);
+      z-index: 4;
+      &.to-deck {
+        animation: todeck .5s ease-in-out;
+        .card-front { transform: rotateY(180deg) }
+        .card-back { transform: rotateY(360deg) }
+      }
+      &.deck {
+        opacity: 0.4;
+        left: 42%; 
+        right: auto;
+        transform: translateX(-50%);
+      }
+    }
+
+    /* Надпись, которая показывает, кто ходит */
+    .current-turn {
+      position: absolute;
+      top: 10%;
+      width: 200px;
+      left: 50%; right: 50%;
+      transform: translateX(-50%);
+      color: white;
+      text-align: center;
+      /* text-wrap: nowrap; */
+    }
+
+    aside.player-panel {
+      $gap: 12px;
+
+      position: absolute;
+      top: 15%;
+      width: 8%;
+
+      &:nth-of-type(1) { left: 3%; }
+      &:nth-of-type(2) { right: 3%; } 
+
+      .badge-player {
+        position: static;
+        box-sizing: border-box;
+        width: 100%;
+      }
+
+      .resources {
+        margin-top: $gap;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: $gap;
+        /* width: 78px; */
+        /* height: 216px; */
+        
+      }
+    }
+
+    .tower {
+      z-index: 10;
+      position: absolute;
+      width: 5.5%;
+      &-1 { left: 15%; }
+      &-2 { right: 15%; }
+    }
+    .wall {
+      position: absolute;
+      width: 2.7%;
+      &-1 { left: 23.6%; }
+      &-2 { right: 23.6%; }
+    }
+  }
+
+  section#cards {
+    background: rgb(0,41,2);
+    background: linear-gradient(180deg, rgba(0,41,2,1) 0%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .cards-container {
+      /* flex-basis: 80%; */
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      /* margin: 20px; */
+      /* gap: 1vw;  */
+    }
+
+  }
+
+}
+
+@keyframes todeck {
+  0% { }
+
+  100% {
+    left: 42%; 
+    right: auto;
+    transform: translateX(-50%);
+  }
+}
